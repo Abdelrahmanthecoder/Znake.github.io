@@ -4,8 +4,8 @@ var cols = 27;
 var board;
 var context; 
 
-var snakeX = blockSize * 5;
-var snakeY = blockSize * 5;
+var snakeX = blockSize * 10;
+var snakeY = blockSize * 10;
 
 var velocityX = 0;
 var velocityY = 0;
@@ -25,7 +25,7 @@ window.onload = function() {
 
     placeFood();
     document.addEventListener("keyup", changeDirection);
-    setInterval(update, 1000/10);
+    setInterval(update, 100/1);
 }
 
 function update() {
