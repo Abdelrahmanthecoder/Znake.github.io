@@ -1,12 +1,9 @@
-
-//board
 var blockSize = 25;
 var rows = 20;
 var cols = 20;
 var board;
 var context; 
 
-//snake head
 var snakeX = blockSize * 5;
 var snakeY = blockSize * 5;
 
@@ -15,7 +12,6 @@ var velocityY = 0;
 
 var snakeBody = [];
 
-//food
 var foodX;
 var foodY;
 
