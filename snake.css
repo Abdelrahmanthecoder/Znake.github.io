@@ -3,15 +3,6 @@ body {
     text-align: center;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
 .btn{
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -19,7 +10,7 @@ body{
     background: #1E90FF;
     width: 160px;
     padding: 20px;
-    text-align: center;
+    text-align: bottom;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
