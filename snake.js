@@ -25,7 +25,7 @@ window.onload = function() {
 
     placeFood();
     document.addEventListener("keyup", changeDirection);
-    setInterval(update, 100/1);
+    setInterval(update, 90/1);
 }
 
 function update() {
