@@ -3,6 +3,7 @@ var rows = 25;
 var cols = 27;
 var board;
 var context; 
+var score = 0;
 
 var snakeX = blockSize * 15;
 var snakeY = blockSize * 15;
@@ -42,6 +43,8 @@ function update() {
     if (snakeX == foodX && snakeY == foodY) {
         snakeBody.push([foodX, foodY]);
         placeFood();
+        score += 1;
+        console.log(score)
     }
 
     for (let i = snakeBody.length-1; i > 0; i--) {
@@ -68,6 +71,7 @@ function update() {
         if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
             gameOver = true;
             alert("Game Over");
+            console.log("Game Over")
         }
     }
 }
