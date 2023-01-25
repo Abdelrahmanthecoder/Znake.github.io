@@ -4,8 +4,8 @@ var cols = 27;
 var board;
 var context; 
 
-var snakeX = blockSize * 10;
-var snakeY = blockSize * 10;
+var snakeX = blockSize * 15;
+var snakeY = blockSize * 15;
 
 var velocityX = 0;
 var velocityY = 0;
@@ -76,18 +76,22 @@ function changeDirection(e) {
     if (e.code == "ArrowUp" && velocityY != 1) {
         velocityX = 0;
         velocityY = -1;
+        console.log("ArrowUp")
     }
     else if (e.code == "ArrowDown" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
+        console.log("ArrowDown")
     }
     else if (e.code == "ArrowLeft" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
+        console.log("ArrowLeft")
     }
     else if (e.code == "ArrowRight" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
+        console.log("ArrowRight")
     }
 }
 
