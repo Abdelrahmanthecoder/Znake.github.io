@@ -97,6 +97,26 @@ function changeDirection(e) {
         velocityY = 0;
         console.log("ArrowRight")
     }
+    else if (e.code == "KeyW" && velocityY != 1) {
+        velocityX = 0;
+        velocityY = -1;
+        console.log("KeyW")
+    }
+    else if (e.code == "KeyS" && velocityY != -1) {
+        velocityX = 0;
+        velocityY = 1;
+        console.log("KeyS")
+    }
+    else if (e.code == "KeyA" && velocityX != 1) {
+        velocityX = -1;
+        velocityY = 0;
+        console.log("KeyA")
+    }
+    else if (e.code == "KeyD" && velocityX != -1) {
+        velocityX = 1;
+        velocityY = 0;
+        console.log("KeyD")
+    }
 }
 
 
