@@ -29,3 +29,11 @@ body {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+h1 {
+    font-family: Gill sans;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 21.44px 0px;
+    text-align: center;
+}
