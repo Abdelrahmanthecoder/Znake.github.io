@@ -5,6 +5,8 @@ var board;
 var context; 
 var score = 0;
 
+var DeathAudio = new Audio("/DeathAudio.mp3");
+
 var snakeX = blockSize * 15;
 var snakeY = blockSize * 15;
 
@@ -66,6 +68,7 @@ function update() {
         gameOver = true;
         alert("Game Over: Died trying to escape the Znake dungeon!");
         console.log("Game Over: Died trying to escape the Znake dungeon!");
+        DeathAudio.play();
     }
 
     for (let i = 0; i < snakeBody.length; i++) {
@@ -73,6 +76,7 @@ function update() {
             gameOver = true;
             alert("Game Over: Died of suffocation from yourself!");
             console.log("Game Over: Died of suffocation from yourself!")
+            DeathAudio.play();
         }
     }
 }
