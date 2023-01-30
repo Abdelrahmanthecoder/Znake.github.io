@@ -1,7 +1,7 @@
 body {
     font-family: "Gill sans";
     text-align: center;
-    background: linear-gradient(45deg, rgb(92, 161, 2), rgb(92, 161, 2) )
+    background: radial-gradient(45deg, rgb(76, 78, 74), rgb(62, 71, 50))
 }
 
 .btn{
