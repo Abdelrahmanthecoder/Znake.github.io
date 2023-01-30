@@ -6,6 +6,7 @@ var context;
 var score = 0;
 
 var DeathAudio = new Audio("/DeathAudio.mp3");
+var MoveAudio = new Audio("/MoveAudio.mp3");
 
 var snakeX = blockSize * 15;
 var snakeY = blockSize * 15;
@@ -86,41 +87,49 @@ function changeDirection(e) {
         velocityX = 0;
         velocityY = -1;
         console.log("ArrowUp")
+        MoveAudio.play();
     }
     else if (e.code == "ArrowDown" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
         console.log("ArrowDown")
+        MoveAudio.play();
     }
     else if (e.code == "ArrowLeft" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
         console.log("ArrowLeft")
+        MoveAudio.play();
     }
     else if (e.code == "ArrowRight" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
         console.log("ArrowRight")
+        MoveAudio.play();
     }
     else if (e.code == "KeyW" && velocityY != 1) {
         velocityX = 0;
         velocityY = -1;
         console.log("KeyW")
+        MoveAudio.play();
     }
     else if (e.code == "KeyS" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
         console.log("KeyS")
+        MoveAudio.play();
     }
     else if (e.code == "KeyA" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
         console.log("KeyA")
+        MoveAudio.play();
     }
     else if (e.code == "KeyD" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
         console.log("KeyD")
+        MoveAudio.play();
     }
 }
 
