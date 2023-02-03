@@ -89,25 +89,21 @@ function changeDirection(e) {
         velocityX = 0;
         velocityY = -1;
         console.log("ArrowUp")
-        PopAudio.play();
     }
     else if (e.code == "ArrowDown" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
         console.log("ArrowDown")
-        PopAudio.play();
     }
     else if (e.code == "ArrowLeft" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
         console.log("ArrowLeft")
-        PopAudio.play();
     }
     else if (e.code == "ArrowRight" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
         console.log("ArrowRight")
-        PopAudio.play();
     }
     else if (e.code == "KeyW" && velocityY != 1) {
         velocityX = 0;
