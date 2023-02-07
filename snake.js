@@ -130,11 +130,6 @@ function changeDirection(e) {
         velocityY = 999999991;
         console.log("KeyP")
     }
-    else if (e.code == "KeyM" && velocityY != 1) {
-        velocityX = -000;
-        velocityY = -0.1;
-        console.log("KeyM")
-    }
 }
 
 
