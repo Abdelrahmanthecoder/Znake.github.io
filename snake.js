@@ -136,8 +136,6 @@ function changeDirection(e) {
         console.log("KeyM key pressed")
     }
     else if (e.code == "KeyQ" && velocityX != 1) {
-        velocityX = 0;
-        velocityY = 0;
         console.log("KeyQ key pressed")
         alert("[Game paused]")
     }
