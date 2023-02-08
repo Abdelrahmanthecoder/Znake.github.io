@@ -134,7 +134,6 @@ function changeDirection(e) {
         velocityX = -000;
         velocityY = -0.1;
         console.log("KeyM key pressed")
-        void screen
     }
 }
 
