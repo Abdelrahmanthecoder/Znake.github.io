@@ -88,52 +88,52 @@ function changeDirection(e) {
     if (e.code == "ArrowUp" && velocityY != 1) {
         velocityX = 0;
         velocityY = -1;
-        console.log("ArrowUp")
+        console.log("ArrowUp key pressed")
     }
     else if (e.code == "ArrowDown" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
-        console.log("ArrowDown")
+        console.log("ArrowDown key pressed")
     }
     else if (e.code == "ArrowLeft" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
-        console.log("ArrowLeft")
+        console.log("ArrowLeft key pressed")
     }
     else if (e.code == "ArrowRight" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
-        console.log("ArrowRight")
+        console.log("ArrowRight key pressed")
     }
     else if (e.code == "KeyW" && velocityY != 1) {
         velocityX = 0;
         velocityY = -1;
-        console.log("KeyW")
+        console.log("KeyW key pressed")
     }
     else if (e.code == "KeyS" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
-        console.log("KeyS")
+        console.log("KeyS key pressed")
     }
     else if (e.code == "KeyA" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
-        console.log("KeyA")
+        console.log("KeyA key pressed")
     }
     else if (e.code == "KeyD" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
-        console.log("KeyD")
+        console.log("KeyD key pressed")
     }
     else if (e.code == "KeyP" && velocityX != -1) {
         velocityX = 999999999;
         velocityY = 999999991;
-        console.log("KeyP")
+        console.log("KeyP key pressed")
     }
     else if (e.code == "KeyM" && velocityY != 1) {
         velocityX = -000;
         velocityY = -0.1;
-        console.log("KeyM")
+        console.log("KeyM key pressed")
         void screen
     }
 }
