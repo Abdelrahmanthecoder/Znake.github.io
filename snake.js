@@ -71,7 +71,7 @@ function update() {
         gameOver = true;
         DeathAudio.play();
         alert("Game Over: Died trying to escape the Znake dungeon!");
-        console.log("Game Over: Died trying to escape the Znake dungeon!");
+        console.log("'Player' died trying to escape the Znake dungeon!");
     }
 
     for (let i = 0; i < snakeBody.length; i++) {
@@ -79,7 +79,7 @@ function update() {
             gameOver = true;
             DeathAudio.play();
             alert("Game Over: Died of suffocation from yourself!");
-            console.log("Game Over: Died of suffocation from yourself!")
+            console.log("'Player' died of suffocation!")
         }
     }
 }
