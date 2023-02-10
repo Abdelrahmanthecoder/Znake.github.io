@@ -88,42 +88,42 @@ function changeDirection(e) {
     if (e.code == "ArrowUp" && velocityY != 1) {
         velocityX = 0;
         velocityY = -1;
-        console.log("ArrowUp key pressed")
+        console.log("Up Arrow key pressed")
     }
     else if (e.code == "ArrowDown" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
-        console.log("ArrowDown key pressed")
+        console.log("Down Arrow key pressed")
     }
     else if (e.code == "ArrowLeft" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
-        console.log("ArrowLeft key pressed")
+        console.log("Left Arrow key pressed")
     }
     else if (e.code == "ArrowRight" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
-        console.log("ArrowRight key pressed")
+        console.log("Right Arrow key pressed")
     }
     else if (e.code == "KeyW" && velocityY != 1) {
         velocityX = 0;
         velocityY = -1;
-        console.log("KeyW key pressed")
+        console.log("W Key key pressed")
     }
     else if (e.code == "KeyS" && velocityY != -1) {
         velocityX = 0;
         velocityY = 1;
-        console.log("KeyS key pressed")
+        console.log("S Key key pressed")
     }
     else if (e.code == "KeyA" && velocityX != 1) {
         velocityX = -1;
         velocityY = 0;
-        console.log("KeyA key pressed")
+        console.log("A Key key pressed")
     }
     else if (e.code == "KeyD" && velocityX != -1) {
         velocityX = 1;
         velocityY = 0;
-        console.log("KeyD key pressed")
+        console.log("D Key key pressed")
     }
     else if (e.code == "KeyP" && velocityX != -1) {
         velocityX = 999999999;
@@ -133,10 +133,10 @@ function changeDirection(e) {
     else if (e.code == "KeyM" && velocityY != 1) {
         velocityX = -000;
         velocityY = -0.1;
-        console.log("KeyM key pressed")
+        console.log("M Key key pressed")
     }
     else if (e.code == "KeyQ" && velocityX != 1) {
-        console.log("KeyQ key pressed")
+        console.log("Q Key key pressed")
         alert("[Game paused]")
     }
 }
