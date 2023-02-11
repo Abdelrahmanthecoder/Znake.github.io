@@ -83,8 +83,6 @@ body {
     transition-property: box-shadow, transform;
     box-shadow: black 20px 10px 50px;
     position: absolute;
-    top: 85%;
-    left: 44.32%;
 }
 .hide:hover, .hide:focus, .hide:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
