@@ -126,8 +126,8 @@ function changeDirection(e) {
         console.log("D Key key pressed")
     }
     else if (e.code == "KeyP" && velocityX != -1) {
-        velocityX = 999999999;
-        velocityY = 999999991;
+        velocityX = 9999;
+        velocityY = 9999;
         console.log("KeyP key pressed")
     }
     else if (e.code == "KeyM" && velocityY != 1) {
