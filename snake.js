@@ -126,6 +126,7 @@ function changeDirection(e) {
         console.log("D Key key pressed")
     }
     else if (e.code == "KeyM" && velocityY != 1) {
+        PopAudio.play();
         velocityX = 2;
         velocityY = 1;
         console.log("M Key key pressed")
