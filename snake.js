@@ -133,6 +133,7 @@ function changeDirection(e) {
     else if (e.code == "KeyQ" && velocityX != 1) {
         console.log("Q Key key pressed")
         alert("[Game paused]")
+        PopAudio.play();
     }
 }
 
