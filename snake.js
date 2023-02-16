@@ -47,9 +47,9 @@ function update() {
     if (snakeX == foodX && snakeY == foodY) {
         snakeBody.push([foodX, foodY]);
         placeFood();
+        AppleCrunchAudio.play();
         score += 1;
         console.log(score)
-        AppleCrunchAudio.play();
     }
 
     for (let i = snakeBody.length-1; i > 0; i--) {
