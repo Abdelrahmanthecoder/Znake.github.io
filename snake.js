@@ -68,16 +68,16 @@ function update() {
     }
 
     if (snakeX < 0 || snakeX > cols*blockSize || snakeY < 0 || snakeY > rows*blockSize) {
-        DeathAudio.play();
         gameOver = true;
+        DeathAudio.play();
         alert("Game Over: Died trying to escape the Znake dungeon!");
         console.log("'Player' died trying to escape the Znake dungeon!");
     }
 
     for (let i = 0; i < snakeBody.length; i++) {
         if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
-            DeathAudio.play();
             gameOver = true;
+            DeathAudio.play();
             alert("Game Over: Died of suffocation from yourself!");
             console.log("'Player' died of suffocation!")
         }
