@@ -76,10 +76,10 @@ function update() {
 
     for (let i = 0; i < snakeBody.length; i++) {
         if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
+            DeathAudio.play();
             gameOver = true;
             alert("Game Over: Died of suffocation from yourself!");
             console.log("'Player' died of suffocation!")
-            DeathAudio.play();
         }
     }
 }
