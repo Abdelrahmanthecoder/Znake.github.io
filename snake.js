@@ -69,9 +69,9 @@ function update() {
 
     if (snakeX < 0 || snakeX > cols*blockSize || snakeY < 0 || snakeY > rows*blockSize) {
         gameOver = true;
-        DeathAudio.play();
         alert("Game Over: Died trying to escape the Znake dungeon!");
         console.log("'Player' died trying to escape the Znake dungeon!");
+        DeathAudio.play();
     }
 
     for (let i = 0; i < snakeBody.length; i++) {
