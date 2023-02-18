@@ -91,3 +91,21 @@ body {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+.GameOverScreen{
+    position: relative;
+    text-align: center;
+    color: red;
+    font-size: x-large;
+    visibility: hidden;
+    height: 10px;
+}
+
+.GameOverScreen1{
+    position: relative;
+    text-align: center;
+    color: red;
+    font-size: x-large;
+    visibility: hidden;
+    height: 10px;
+}
