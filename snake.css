@@ -99,6 +99,8 @@ body {
     font-size: x-large;
     visibility: hidden;
     height: 10px;
+    top: 50px;
+    left: 50px;
 }
 
 .GameOverScreen1{
@@ -108,4 +110,6 @@ body {
     font-size: x-large;
     visibility: hidden;
     height: 10px;
+    top: 50px;
+    left: 50px;
 }
