@@ -1,5 +1,6 @@
 body {
     font-family: "Gill sans";
+    text-align: center;
     background: radial-gradient(rgb(76, 78, 74), rgb(80, 80, 80))
 }
 
@@ -57,8 +58,8 @@ body {
     transition-property: box-shadow, transform;
     box-shadow: black 20px 10px 50px;
     position: absolute;
-    top: 85%;
-    left: 44.32%;
+    top: 20px;
+    left: 50px;
 }
 .cbtn:hover, .cbtn:focus, .cbtn:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -103,7 +104,7 @@ body {
     visibility: hidden;
     height: 10px;
     top: -350px;
-    left: -200px;
+    left: -300px;
 }
 
 .GameOverScreen1{
@@ -114,5 +115,5 @@ body {
     visibility: hidden;
     height: 10px;
     top: -350px;
-    left: -200px;
+    left: -300px;
 }
