@@ -104,7 +104,7 @@ body {
     visibility: hidden;
     height: 10px;
     top: -350px;
-    left: -300px;
+    left: 10px;
 }
 
 .GameOverScreen1{
@@ -115,5 +115,5 @@ body {
     visibility: hidden;
     height: 10px;
     top: -350px;
-    left: -300px;
+    left: 10px;
 }
