@@ -1,5 +1,6 @@
 body {
     font-family: "Gill sans";
+    text-align: center;
     background: radial-gradient(rgb(76, 78, 74), rgb(80, 80, 80))
 }
 
@@ -113,4 +114,9 @@ body {
     height: 10px;
     top: -350px;
     left: 10px;
+}
+
+.board {
+    text-align: center;
+    align-items: center;
 }
