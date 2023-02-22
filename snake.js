@@ -9,8 +9,8 @@ var DeathAudio = new Audio("/DeathAudio.mp3");
 var AppleCrunchAudio = new Audio("/AppleCrunchAudio.mp3");
 var PopAudio = new Audio("/PopAudio.mp3");
 
-var snakeX = blockSize * 15;
-var snakeY = blockSize * 15;
+var snakeX = blockSize * 20;
+var snakeY = blockSize * 20;
 
 var velocityX = 0;
 var velocityY = 0;
