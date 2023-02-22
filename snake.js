@@ -1,6 +1,6 @@
 var blockSize = 25;
-var rows = 25;
-var cols = 27;
+var rows = 20;
+var cols = 25;
 var board;
 var context; 
 var score = 0;
@@ -9,8 +9,8 @@ var DeathAudio = new Audio("/DeathAudio.mp3");
 var AppleCrunchAudio = new Audio("/AppleCrunchAudio.mp3");
 var PopAudio = new Audio("/PopAudio.mp3");
 
-var snakeX = blockSize * 10;
-var snakeY = blockSize * 10;
+var snakeX = blockSize * 13;
+var snakeY = blockSize * 13;
 
 var velocityX = 0;
 var velocityY = 0;
