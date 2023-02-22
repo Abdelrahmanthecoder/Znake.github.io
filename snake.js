@@ -1,4 +1,4 @@
-var blockSize = 25;
+var blockSize = 24;
 var rows = 20;
 var cols = 25;
 var board;
