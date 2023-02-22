@@ -16,6 +16,8 @@ body {
     text-align: bottom;
     text-decoration: none;
     text-transform: uppercase;
+    display: inline;
+    font-weight: 700;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -70,9 +72,9 @@ body {
     font-size: 18px;
     font-weight: bold;
     background: #526070;
-    width: 1500px;
+    width: 1100px;
     padding: 20px;
-    text-align: bottom;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
