@@ -81,7 +81,6 @@ function update() {
             DeathAudio.play();
             document.getElementById("GameOverScreen").style.visibility = "visible";
             document.getElementById("GameOverScreen1").style.visibility = "visible";
-            alert("Game Over: Died of suffocation from yourself!");
             console.log("'Player' died of suffocation!")
         }
     }
