@@ -72,7 +72,6 @@ function update() {
         DeathAudio.play();
         document.getElementById("GameOverScreen").style.visibility = "visible";
         document.getElementById("GameOverScreen1").style.visibility = "visible";
-        alert("Game Over: Died trying to escape the Znake dungeon!");
         console.log("'Player' died trying to escape the Znake dungeon!");
     }
 
