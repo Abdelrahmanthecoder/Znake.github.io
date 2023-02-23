@@ -5,6 +5,11 @@
 <p align="center">The "new" snake game in town!
 </p>
 
+
+## How start playing
+
+To start playing **Znake** you can go to (https://abdelrahmanthecoder.github.io/Znake.github.io/)!
+
 ## Issues
 
 You can gladly submit any issues or bugs with my project on the [issues page](https://github.com/Abdelrahmanthecoder/Znake-game/issues)!
