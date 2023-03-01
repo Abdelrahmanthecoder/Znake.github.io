@@ -16,7 +16,6 @@ body {
     text-align: bottom;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline;
     font-weight: 700;
     color: #fff;
     border-radius: 5px;
@@ -30,8 +29,8 @@ body {
 }
 .btn:hover, .btn:focus, .btn:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 .Znake-title{
@@ -51,7 +50,6 @@ body {
     text-align: bottom;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -64,8 +62,8 @@ body {
 }
 .cbtn:hover, .cbtn:focus, .cbtn:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 .hide{
