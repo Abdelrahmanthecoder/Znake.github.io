@@ -9,6 +9,10 @@
 
 To start playing **Znake** you can go to (https://abdelrahmanthecoder.github.io/Znake.github.io/)!
 
+<h2 align="center">Download on Google Webstore</h2>
+
+Download the Znake google extenstion with the link ahead --> (https://chrome.google.com/webstore/detail/znake-alpha/fdaohlgcgijopffcfdokakmbiebiggml?hl=en&authuser=0)!
+
 <h2 align="center">Issues</h2>
 
 You can gladly submit any issues or bugs with my project on the [issues page](https://github.com/Abdelrahmanthecoder/Znake-game/issues)!
