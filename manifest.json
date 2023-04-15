@@ -1,6 +1,6 @@
 {
   "name": "Znake-alpha",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The new snake game in town!",
   "manifest_version": 3,
   "background": {
@@ -9,5 +9,10 @@
   "action": {
     "default_title": "Znake-alpha",
     "default_popup": "index2.html"
-  }
+  },
+  "permissions": [
+    "management"
+    ,"storage"
+    ,"activeTab"
+  ]
 }
