@@ -31,18 +31,7 @@
         <center> <p id="GameOverScreen" class="GameOverScreen">Game Over!</p> </center>
         <center> <p id="GameOverScreen1" class="GameOverScreen1";>Close and re-open the extension to continue playing...</p> </center>
         <link rel="stylesheet" href="snake.css">
-        <button id="toggleButton" class="toggleButton" onclick="myFunction()">Restart</button>
-        <script>
-        window.onload = function() {
-            board = document.getElementById("board");
-            board.height = rows * blockSize;
-            board.width = cols * blockSize;
-            context = board.getContext("2d");
-        
-            placeFood();
-            document.addEventListener("keyup", changeDirection);
-            setInterval(update, 95/0.76);
-        }
-        </script>
+        <button id="reloadBtn" class="toggleButton">Restart</button>
+        <script src="reload.js"></script>
     </body>
 </html>
