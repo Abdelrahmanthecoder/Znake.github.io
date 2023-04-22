@@ -116,3 +116,61 @@ body {
     top: -320px;
     left: 4px;
 }
+
+.toggleButton{
+    top: 50px;
+    left: 50px;
+    font-family: "Gill sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #526070;
+    width: 160px;
+    padding: 15px;
+    text-align: bottom;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    box-shadow: black 20px 10px 50px;
+}
+.toggleButton:hover, .toggleButton:focus, .toggleButton:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.toggleButton2{
+    top: 50px;
+    left: 50px;
+    font-family: "Gill sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #526070;
+    width: 160px;
+    padding: 15px;
+    text-align: bottom;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    box-shadow: black 20px 10px 50px;
+}
+.toggleButton2:hover, .toggleButton2:focus, .toggleButton2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
