@@ -12,7 +12,5 @@
   },
   "permissions": [
     "management"
-    ,"storage"
-    ,"activeTab"
   ]
 }
