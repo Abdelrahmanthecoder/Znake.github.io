@@ -11,6 +11,5 @@
     "default_popup": "index2.html"
   },
   "permissions": [
-    "management"
   ]
 }
