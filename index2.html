@@ -15,6 +15,22 @@
             });
         </script>
     </head>
+    <style>
+        dialog {
+          width: 300px;
+          height: 300px;
+          padding: 20px;
+          background: #526070;
+        }
+    
+        button {
+          padding: 10px;
+          font-size: 16px;
+          background: #526070;
+        }
+    </style>
+
+    
 
     <style>
         canvas{
@@ -33,6 +49,39 @@
         <link rel="stylesheet" href="snake.css">
         <button id="reloadBtn2" class="btn">Close Extension</button>
         <script src="reload.js"></script>
+        <dialog id="popupDialog">
+            <p>
+                Move Up: Arrow Up / W Key
+            </p>
+            <p> 
+                Move Down: Arrow Down / S Key
+            </p>
+            <p>
+                Move Left: Arrow Left / A Key
+            </p>
+            <p>
+                Move Right: Arrow Right / D key
+            </p>
+            <p>
+                Pause Game: Q key
+            </p>
+            <p>
+                Teleport Sideways: M key
+            </p>
+            <button onclick="closeDialog()">Close</button>
+        </dialog>
+        <script>
+            const dialog = document.getElementById("popupDialog");
+        
+            function openDialog() {
+              dialog.showModal();
+            }
+        
+            function closeDialog() {
+              dialog.close();
+            }
+        </script>
+        <center> <p id="visible" class="cbtn" onclick="openDialog()">Controls</p> </center>
     </body>
 </html>
 
